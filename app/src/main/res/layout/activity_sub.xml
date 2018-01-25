@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.promise.naijagithubers.MainActivity"
+    android:background="@drawable/wood1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Naija GitHubers"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"/>
+
+
+    <LinearLayout
+
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:padding="2dp">
+
+        <Button
+            android:id="@+id/javaDevelopers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Java Developers"
+            android:background="@drawable/wood1"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="2dp">
+
+        <Button
+            android:id="@+id/cDevelopers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="C Developers"
+            android:background="@drawable/wood1"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="2dp">
+
+        <Button
+            android:id="@+id/rubyDeveelopers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ruby Developers"
+            android:background="@drawable/wood1"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="2dp">
+
+        <Button
+            android:id="@+id/pythonDeveelopers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Python Developers"
+            android:background="@drawable/wood1"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="2dp">
+
+        <Button
+            android:id="@+id/phpDeveelopers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PHP Developers"
+            android:background="@drawable/wood1"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+</LinearLayout>

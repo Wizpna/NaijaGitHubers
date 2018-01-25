@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.promise.naijagithubers">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SubActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="Java Developers"
+            android:parentActivityName=".SubActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SubActivity" />
+        </activity>
+
+        <activity android:name=".ProfileActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="Developer Profile"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:configChanges="orientation"
+                android:screenOrientation="portrait"
+                android:label="Developers Profile"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity android:name=".CActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="C Developers"
+            android:parentActivityName=".SubActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CActivity" />
+        </activity>
+
+        <activity android:name=".RubyActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="Ruby Developers"
+            android:parentActivityName=".SubActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CActivity" />
+        </activity>
+
+        <activity android:name=".PythonActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="Python Developers"
+            android:parentActivityName=".SubActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CActivity" />
+        </activity>
+
+        <activity android:name=".PhpActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:label="PHP Developers"
+            android:parentActivityName=".SubActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CActivity" />
+        </activity>
+    </application>
+
+</manifest>
